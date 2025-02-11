@@ -1,22 +1,8 @@
-# MISS_NOTRA
-Bir firma için tanıtm sayfası.....
+# React + Vite
 
-Sayfa Yapısı :
-Ana Sayfa (Büyük bir kahraman görseli, slogan vs.)
-Hakkımızda (Firma bilgileri, misyon-vizyon)
-Koleksiyonlar (Gelinlik modelleri, filtreleme olabilir mi?)
-İletişim (Telefon, adres, sosyal medya linkleri vs.)
+This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-Modern ve Şık bir Tasarım :
+Currently, two official plugins are available:
 
-Minimalist bir arayüz (Az ama etkili öğeler, ferah bir tasarım)
-Büyük ve kaliteli görseller (Hero görseller, koleksiyonlarda geniş fotoğraf alanları)
-Zarif fontlar ve pastel/soft renkler (Beyaz, krem, altın tonları gibi)
-Hafif animasyonlar (Sayfa geçişleri, hover efektleri)
-
-Ana sayfa için şu bölümler:
-
-Hero Bölümü – Büyük bir görsel, firmanızın sloganı ve bir "Bizi Tanıyın" butonu
-Hakkımızda Kısmı – Kısa bir tanıtım metni
-Koleksiyon Tanıtımı – Seçili birkaç modelin fotoğrafları
-İletişim Bilgileri – Adres, telefon ve sosyal medya
+- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
+- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
