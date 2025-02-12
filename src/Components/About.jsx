@@ -5,20 +5,22 @@ const About = () => {
     <section className="py-16 bg-gray-100">
       <div className="container mx-auto px-6 text-center">
         <motion.h2 
-          className="text-4xl font-bold text-gray-800 mb-6"
+          className="text-5xl font-extrabold text-gray-800 mb-6 tracking-wide"
           initial={{ opacity: 0, y: -20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 1 }}
         >
-          Biz Kimiz?
+          Hayallerinizi Gerçeğe Dönüştürüyoruz
         </motion.h2>
         <motion.p 
-          className="text-lg text-gray-600 max-w-3xl mx-auto"
+          className="text-xl text-gray-600 max-w-3xl mx-auto leading-relaxed italic"
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
           transition={{ delay: 0.3, duration: 1 }}
         >
-          Gelinlik sektöründe yılların tecrübesiyle, en özel gününüzde hayallerinizi gerçeğe dönüştürmek için buradayız. Özel tasarımlarımız ve kaliteli işçiliğimizle size en iyi hizmeti sunuyoruz.
+          "Her gelin bir masalı hak eder..."  
+          <br />
+          Yılların verdiği deneyim ve tutku ile, özel tasarımlarımızla en güzel anınıza eşlik ediyoruz. El işçiliğiyle özenle hazırlanan gelinliklerimiz, zarafeti ve şıklığı bir araya getiriyor.
         </motion.p>
         <motion.img 
           src="/about-image.jpg"
