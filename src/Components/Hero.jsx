@@ -1,3 +1,4 @@
+
 import { motion } from "framer-motion";
 
 const Hero = () => {
@@ -11,7 +12,7 @@ const Hero = () => {
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 1 }}
       >
-        <h1 className="text-4xl md:text-6xl font-bold">Hayalinizdeki Gelinlik için MISS-NOTRA'ya Hoşgeldiniz...</h1>
+        <h1 className="text-4xl md:text-6xl font-bold">MISS-NOTRA'ya hoşgeldiniz..</h1>
         <p className="mt-4 text-lg md:text-xl">Zarafetin ve şıklığın buluştuğu özel koleksiyonlarımızı keşfedin.</p>
         <motion.button 
           className="mt-6 px-6 py-3 bg-white text-black rounded-xl text-lg font-semibold shadow-lg hover:bg-gray-200 transition"
