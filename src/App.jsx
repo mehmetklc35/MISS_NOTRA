@@ -5,12 +5,12 @@ import Contact from "./Components/Contact";
 
 function App() {
   return (
-    <>
+    <div>
       <Hero />
       <About />
       <Collection />
-      <Contact /> 
-    </>
+      <Contact />
+    </div>
   );
 }
 
